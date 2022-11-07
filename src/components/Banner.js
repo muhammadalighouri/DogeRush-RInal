@@ -33,7 +33,8 @@ const Banner = ({ timeline, ease }) => {
                             </h2>
                             <p>
                                 <p>
-                                    Welcome to the world of Doge Rush Where Elon Meets DogeCoin
+                                    Welcome to the world of Doge Rush Where Elon
+                                    Meets DogeCoin
                                 </p>
                             </p>
                         </div>

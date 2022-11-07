@@ -132,6 +132,10 @@
                             width: 20px;
                             height: 20px;
                         }
+                        @include sm {
+                            width: 17px;
+                            height: 17px;
+                        }
                     }
                 }
             }
@@ -201,9 +205,12 @@
                             }
                         }
                         .middle {
-                            display: grid;
-                            grid-template-columns: 1fr 3fr;
+                            display: flex;
                             gap: 1rem;
+                            @include md {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                            }
                             .start {
                                 display: flex;
                                 align-items: center;
@@ -213,6 +220,9 @@
                                 font-weight: 100;
                                 border-right: 1px solid #0085ff;
                                 padding-right: 15px;
+                                @include md {
+                                    border-right: 0;
+                                }
                                 .logo {
                                     background: linear-gradient(
                                         126.6deg,
@@ -458,9 +468,6 @@
     color: #fff;
     font-size: 13px;
     outline: none;
-}
-.mint__grid > .container .about__grid .details > div .payment__info .middle {
-    display: flex;
 }
 
 .mint__grid
