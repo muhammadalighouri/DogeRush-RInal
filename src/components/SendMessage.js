@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import Select from 'react-select'
 import { codes } from '../assests/Code'
 const SendMessage = () => {
@@ -94,10 +93,9 @@ const SendMessage = () => {
                 </div>
 
                 <p id='p'>
-                    <input type='checkbox' name='' id='' for='p' />
-                    By submitting this form you agree to our{' '}
-                    <Link to={'/terms'}>Terms</Link> and{' '}
-                    <Link to='/privacy-policy'>Privacy Policy</Link>
+                    <input type='checkbox' name='' id='checkbo' for='p' />
+                    <label htmlFor="checkbo">  By submitting this form you agree to our Terms and Privacy
+                        Policy</label>
                 </p>
             </div>
         </div>
