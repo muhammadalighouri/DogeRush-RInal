@@ -81,7 +81,7 @@ const MintGrid = () => {
     }
 
     useEffect(() => {
-        ;(async () => {
+        ; (async () => {
             try {
                 loadTotalInvestment()
             } catch {
@@ -380,7 +380,7 @@ const MintGrid = () => {
                                                 <img
                                                     src={
                                                         selectedOptionTop?.label ==
-                                                        'USDT'
+                                                            'USDT'
                                                             ? 'images/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB.png'
                                                             : 'images/1027.png'
                                                     }
@@ -395,7 +395,7 @@ const MintGrid = () => {
                                                     value: 'ETH',
                                                 }}
                                                 onChange={setSelectedOptionTop}
-                                                // menuIsOpen={true}
+                                            // menuIsOpen={true}
                                             />
                                         </div>
                                         <div className='mid'>
@@ -439,7 +439,7 @@ const MintGrid = () => {
                                         <span>
                                             Balance:&nbsp;
                                             {account &&
-                                            balances?.humanFriendlyTokenBalance
+                                                balances?.humanFriendlyTokenBalance
                                                 ? balances.humanFriendlyTokenBalance
                                                 : 'Wallet not connected'}
                                         </span>
@@ -512,7 +512,7 @@ const MintGrid = () => {
                                     </div>
                                 ) : (
                                     <div
-                                        onClick={pending ? () => {} : handleBuy}
+                                        onClick={pending ? () => { } : handleBuy}
                                         className='btns'
                                     >
                                         <button>
@@ -539,14 +539,14 @@ const MintGrid = () => {
                             <p>
                                 USDT Raised: $
                                 {totalInvestment &&
-                                trimToDecimalPlaces(
-                                    totalInvestment / 10 ** USDT_DECIMALS,
-                                    2,
-                                )
+                                    trimToDecimalPlaces(
+                                        totalInvestment / 10 ** USDT_DECIMALS,
+                                        2,
+                                    )
                                     ? trimToDecimalPlaces(
-                                          totalInvestment / 10 ** USDT_DECIMALS,
-                                          2,
-                                      )
+                                        totalInvestment / 10 ** USDT_DECIMALS,
+                                        2,
+                                    )
                                     : '0.0'}{' '}
                                 / $2,500,000
                             </p>
