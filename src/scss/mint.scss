@@ -26,12 +26,12 @@
         filter: brightness(0.7) blur(0px);
     }
     &::after {
-        position: absolute;
+    position: absolute;
         content: '';
         left: 0;
         bottom: 0;
         width: 100%;
-        background: linear-gradient(0deg, #04111d, transparent);
+        background: linear-gradient(0deg, #0a2c47, transparent);
         z-index: 1;
         right: 0;
         height: 20%;
