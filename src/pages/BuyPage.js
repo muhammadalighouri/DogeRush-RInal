@@ -22,7 +22,6 @@ const BuyPage = () => {
         <>
             <NavigationSec text='CONNECT WALLET' />
             <MintContainer />
-
             <BuyPageInfo MintGrid={MintGrid} />
             <Footer stylo={stylo} />
         </>
