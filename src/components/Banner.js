@@ -32,8 +32,9 @@ const Banner = ({ timeline, ease }) => {
                                 <img src='images/logo/01-03.png' alt='' />
                             </h2>
                             <p>
-                                An NFT P2E Game, Where Elon Musk Meets Doge
-                                Coin.
+                                <p>
+                                    Welcome to the world of Doge Rush Where Elon Meets DogeCoin
+                                </p>
                             </p>
                         </div>
                         <div className='btn__container'>
