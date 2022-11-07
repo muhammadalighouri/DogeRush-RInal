@@ -203,6 +203,7 @@ const Home = () => {
             positon: 'right',
         },
     ]
+
     window.scrollTo(0, 0)
     return (
         <>

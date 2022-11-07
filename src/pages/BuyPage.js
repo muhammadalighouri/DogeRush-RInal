@@ -13,6 +13,10 @@ const MintContainer = () => {
 }
 
 const BuyPage = () => {
+    const stylo = {
+        background: '#113c5a',
+
+    }
     window.scrollTo(0, 0)
     return (
         <>
@@ -20,7 +24,7 @@ const BuyPage = () => {
             <MintContainer />
 
             <BuyPageInfo MintGrid={MintGrid} />
-            <Footer />
+            <Footer stylo={stylo} />
         </>
     )
 }
